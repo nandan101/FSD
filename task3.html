@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header, nav, main, section, article, footer {
+      padding: 20px;
+      margin: 10px;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      color: white;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+    section {
+      background-color: #f4f4f4;
+      border-radius: 8px;
+    }
+    video, audio {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      nav, section, article {
+        padding: 10px;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I'm Shrinandan.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am Shrinandan, currently pursuing my Master's in Computer Networks at MSRIT. I’m passionate about computer security, networking protocols, and building efficient systems.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C/C++</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Text Generation using LLM’s</h3>
+        <p> Implemented controlled text generation using GPT-2 via prompt tuning, without modifying base model.</p>
+        <p>  Achieved 92.7% style accuracy on SST-5 using dual-model setup (generator + discriminator).</p>
+        <p> Utilized PyTorch, Hugging Face Transformers, and Jupyter for model development.</p>
+      </article>
+      <article>
+        <h3> Neighbourhood- Python Based Web Application</h3>
+        <p>Features include ride-sharing, local information sharing, and event coordination.</p>
+        <p>K-Nearest Neighbors (KNN) algorithm for user matching.</p>
+        <p> Haversine formula for precise geolocation calculations.</p>
+      </article>
+    </section>
+
+    <section id="media">
+      <h2> Video</h2>
+      <video controls>
+        <source src="C:\Users\srina\Downloads\nature.mp4" type="video/mp4">
+      </video>
+
+      <h2>Music</h2>
+      <audio controls loop>
+        <source src="C:\Users\srina\Downloads\alone-296348.mp3" type="audio/mp3">
+      </audio>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can reach me at: <a href="sreenandan011@gmail.com">sreenandan011@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shrinandan | Thank you!</p>
+  </footer>
+
+</body>
+</html>
